@@ -31,7 +31,7 @@ This is the "Emperor Has No Clothes" moment: the agent is capable, but there is 
 
 ## The Judge Layer: Nate Jones's Architecture
 
-[Nate Jones's judge-layer articles](https://natejones.com) define a production-grade control plane for agentic systems. The central idea is that the actor and the judge are separate roles with separate optimization targets:
+[Nate Jones's judge-layer work](https://www.youtube.com/watch?v=SX1myuPEDFg) defines a production-grade control plane for agentic systems. The central idea is that the actor and the judge are separate roles with separate optimization targets:
 
 > "The actor optimizes for task completion. The judge optimizes for authorization, policy, correctness, privacy, and risk. They can use the same model family, but they shouldn't be the same role."
 
@@ -453,4 +453,4 @@ You: add the line API_KEY = "sk-abc123" to demo.py
 ## Credits
 
 - **Base agent:** [Mihail Eric](https://www.mihaileric.com/The-Emperor-Has-No-Clothes/) — coding agent from scratch lecture
-- **Judge layer architecture:** [Nate Jones](https://natejones.com) — "The Judge Layer Is The Product" and OpenBrain Judge Extender spec
+- **Judge layer architecture:** [Nate Jones](https://www.youtube.com/watch?v=SX1myuPEDFg) — "Your AI Agent Doesn't Need A Better Prompt. It Needs A Judge."
